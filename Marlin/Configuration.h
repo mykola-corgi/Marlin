@@ -2734,7 +2734,7 @@
 // Note: Test audio output with the G-Code:
 //  M300 S<frequency Hz> P<duration ms>
 //
-#define LCD_FEEDBACK_FREQUENCY_DURATION_MS 2
+#define LCD_FEEDBACK_FREQUENCY_DURATION_MS 70
 #define LCD_FEEDBACK_FREQUENCY_HZ 5000
 
 //
@@ -2747,7 +2747,7 @@
 // A sequence of tones to play at startup, in pairs of tone (Hz), duration (ms).
 // Silence in-between tones.
 //
-#define STARTUP_TUNE { 659, 166, 587, 166, 370, 333, 415, 333, 554, 166, 494, 166, 294, 333, 330, 333, 494, 166, 440, 166, 277, 333, 330, 333, 440, 666 }
+#define STARTUP_TUNE { 932,125,659,188,523,188,370,406,0,109 }
 
 //=============================================================================
 //======================== LCD / Controller Selection =========================
